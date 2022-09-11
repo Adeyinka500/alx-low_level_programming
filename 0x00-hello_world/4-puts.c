@@ -1,31 +1,25 @@
 #include <stdio.h>
 
-#include <string.h>
-
-#include <unistd.h>
-
 /**
 
- * main - main block
+* main - print the string in the put function 
 
- * Return: 1
+*
 
- */
+* Description: using the main function
+
+* this program prints "Programing is like building a multilingual puzzle 
+
+* Return: 0
+
+*/
 
 int main(void)
 
 {
 
- int s = strlen("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+puts("\"Programming is like building a multilingual puzzle");
 
-
-
- write(2,
-
-       "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
-
-       s);
-
- return (1);
+return (0);
 
 }
