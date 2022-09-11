@@ -1,42 +1,40 @@
-#include <stdio.h> 
+#include <stdio.h>
 
-/** 
+/**
 
-* main - print if the number is postive, zero, or negative 
+* main - print if the number is positive, zero, or negative
 
-* 
+*
 
-* Description: using the main function 
+* Description: using the main function
 
-* this program prints "Programming is positive, zero, or negative 
+* this program prints "Programming is positive, zero, or negative
 
-* Return: 0 
+* Return: 0
 
-*/ 
+*/
 
-int main(void) 
+int main(void)
 
-{ 
+{
 
-char ch; 
+char ch;
 
-for (ch = 'a' ; ch <= 'z' ; ch++) 
+for (ch = 'a' ; ch <= 'z' ; ch++)
 
-{ 
+{
 
-putchar(ch); 
+if (ch != 'e' && ch != 'q')
 
-} 
+{
 
-for (ch = 'A' ; ch <= 'Z' ; ch++) 
+putchar(ch);
 
-{ 
+}
 
-putchar(ch); 
+}
 
-} 
-
-putchar('\n'); 
+putchar('\n');
 
 return (0);
 
